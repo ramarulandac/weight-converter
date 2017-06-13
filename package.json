@@ -1,0 +1,33 @@
+{
+  "name": "weight-converter",
+  "version": "0.1.0",
+  "description": "Module to convert mass units: Kg to Lb, Lb to Kg",
+  "main": "dist/src/weightconverter.js",
+  "scripts": {
+    "build": "babel src/weightconverter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ramarulandac/weightconverter"
+  },
+  "keywords": [
+    "converter",
+    "mass",
+    "platzi"
+  ],
+  "author": "René Marulanda <rene.marulanda@gmail.com> (https://twitter.com/MaruloRenacuajo)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2"
+  }
+}
